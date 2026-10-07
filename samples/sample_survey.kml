@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bengaluru City Survey</name>
+    <Placemark>
+      <name>Cubbon Park Boundary</name>
+      <description>Heritage park located in the heart of Bengaluru</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.5900,12.9730,0
+              77.5960,12.9730,0
+              77.5960,12.9780,0
+              77.5900,12.9780,0
+              77.5900,12.9730,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>MG Road Transit Corridor</name>
+      <description>Major transit road in Central Bengaluru</description>
+      <LineString>
+        <coordinates>
+          77.5930,12.9750,0
+          77.6080,12.9750,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vidhana Soudha Landmark</name>
+      <description>State legislative building</description>
+      <Point>
+        <coordinates>
+          77.5908,12.9796,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

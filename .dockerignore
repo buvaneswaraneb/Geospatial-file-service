@@ -1,0 +1,13 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+uploads
+data
+*.sqlite3
+*.db
+README.md
+geo_peoject_1.docx
+tests
